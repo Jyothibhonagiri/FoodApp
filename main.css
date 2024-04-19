@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+width: 100%;
+  height:60px;
+  background-color:lightblue;
+  position: fixed;
+  top:0%;
+  left:0%;
+  right:0%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+nav a{
+    text-decoration: none;
+    margin-right:10%;
+    margin-top: 0%;
+    color: black;
+    font-size: 1.1em;
+}
+nav a:hover{
+    color:blue ;
+    text-decoration: underline;
+    
+}
+nav img{
+margin-top: 1%;
+}
+
+#home{
+ background-image: url(https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg);
+ width: 100%;
+ height:90vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#home h1{
+    padding-top: 13%;
+    text-align: center;
+}
+#menu{
+    width:100%;
+    height: 150vh;
+    padding-right: 3%;
+}
+#menu h1{
+    margin-top: 3%;
+    text-align: center;
+    color: rgb(6, 152, 219);
+}
+.cards{
+    align-items: center;
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap:7px;
+    margin-top: 3%;
+  
+}
+.card{
+    
+    height:280px;
+    width:250px;
+   
+}
+.card img{
+    width:250px;
+    height:200px;
+    border-radius: 2%;
+}
+.content{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.content button{
+    width:60px;
+    background-color: rgb(231, 154, 11);
+    border-radius: 3%;
+    border: none;
+}
+#contact{
+    margin-top: 5%;
+    width: 100%;
+    height:60vh;
+    text-align: center;
+    font-size: 2em;
+
+}
+#contact p{
+    color: navy;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.order{
+    margin-top: 4%;
+    width:100%;
+    height:90vh;
+    text-align: center;
+}
+.order p{
+    font-size: 2em ;
+    color: rgb(206, 20, 51);
+}
+.order form{
+    margin-top: 3%;
+    
+
+}
+ input{
+    width:200px;
+    height:30px;
+    border-radius:20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+form button{
+    font-size: 1em;
+    background-color:rgb(12, 159, 218);
+    width:80px;
+    border: none;
+    border-radius: 10px;
+}
+
+
